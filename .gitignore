@@ -1,0 +1,73 @@
+# --------------------------
+# 📱 iOS / macOS / Xcode
+# --------------------------
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.mode2v3
+*.xcodeproj/*.perspectivev3
+*.xcuserstate
+*.moved-aside
+DerivedData/
+build/
+*.ipa
+*.app
+*.dSYM
+*.xcarchive
+*.swiftpm
+.swiftpm/xcode
+Package.resolved
+.idea/
+
+# --------------------------
+# 🧠 Swift Package Manager
+# --------------------------
+.build/
+Packages/
+.checkouts/
+.swiftpm/
+*.xcodeproj/
+
+# --------------------------
+# 🌐 .NET / C# / Rider
+# --------------------------
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache/
+*.ncrunch*
+*.localhistory/
+_ReSharper*/
+*.DotSettings.user
+appsettings.Development.json
+appsettings.*.local.json
+appsettings.Production.json
+appsettings.json
+
+# --------------------------
+# 🍎 macOS 系统文件
+# --------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+ehthumbs.db
+Thumbs.db
+
+# --------------------------
+# 🔐 安全性或敏感信息（可选）
+# --------------------------
+.env
+*.key
+*.pem
+Secrets.json
+secrets.json

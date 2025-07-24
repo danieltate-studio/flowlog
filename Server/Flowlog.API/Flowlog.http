@@ -1,0 +1,6 @@
+@Flowlog_HostAddress = http://localhost:5283
+
+GET {{Flowlog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
